@@ -1,0 +1,29 @@
+{
+  "userregistration": {
+    "firstname": "sherlock",
+    "lastname": "holmes",
+    "address": "519 sector 13",
+    "city": "Delhi",
+    "state": "New Delhi",
+    "zipcode": "11098",
+    "phone": "9877667788",
+    "ssn": "ADHLCLIDK",
+    "username": "sherlock",
+    "password": "holmes"
+  },
+  "billpayment": {
+    "payeename": "sherlock",
+    "address": "519 sector 13",
+    "city": "Delhi",
+    "state": "New Delhi",
+    "zipcode": "11098",
+    "phone": "9877667788",
+    "account": "4455678",
+    "amount": "40.00",
+    "password": "holmes"
+  },
+  "TransferFund": {
+    "Amount": "60.00"
+  
+  }
+}

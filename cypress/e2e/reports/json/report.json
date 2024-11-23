@@ -1,0 +1,489 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-login-functionality-along-with-some-other-areas;verify-login-functionality-with-incorrect-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify Login functionality with incorrect credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I enter incorrect credentials",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"The username and password could not be verified.\" message",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-test-login-functionality-along-with-some-other-areas;verify-login-functionality-with-correct-credentials",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify Login functionality with correct credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I click on Register link under login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I fill all the details in signup form and click Register",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click logout link",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I enter correct credentials",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I click on Login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I should be navigated to AccountsOverview",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/accountservice-steps.js:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-test-login-functionality-along-with-some-other-areas;verify-bill-payment-complete",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify Bill Payment Complete",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I click on Register link under login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I fill all the details in signup form and click Register",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3645000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click logout link",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I enter correct credentials",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I click on Login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on Bill Pay link",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/accountservice-steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I fill all the details in Bill Payment Service form and click Send Payment",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/billpayment-steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2410000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "I should be navigated to Bill Payment Complete",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/billpayment-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I should see Billpayment message correctly",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/billpayment-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-test-login-functionality-along-with-some-other-areas;verify-update-profile-successfully",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Verify Update Profile successfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 32,
+            "name": "I click on Register link under login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 386000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "I fill all the details in signup form and click Register",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I click logout link",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I enter correct credentials",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 472000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "I click on Login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 743000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I click on Update Contact Info link",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/accountservice-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "I should see the correct result as added during the User Registration",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/contactinfo-steps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 296000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-login-functionality-along-with-some-other-areas",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To Test Login functionality along with some other areas",
+    "tags": [],
+    "uri": "cypress\\e2e\\bdd\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-test-user-registration-functionality;validate-user-get-registered-without-any-issue",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Validate User get registered without any issue",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to WebApp",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Register link under login button",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill all the details in signup form and click Register",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/userregistration-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3761000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see register \"Your account was created successfully. You are now logged in.\" message",
+            "match": {
+              "location": "cypress/e2e/bdd/stepdefinitions/login-steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@smoke",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-test-user-registration-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "To Test User Registration functionality",
+    "tags": [],
+    "uri": "cypress\\e2e\\bdd\\features\\userregistration.feature"
+  }
+]
